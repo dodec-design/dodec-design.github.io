@@ -1,1 +1,175 @@
-eval(atob('InVzZSBzdHJpY3QiOyQuZm4uZXh0ZW5kKHthbmltYXRlQ3NzOmZ1bmN0aW9uKGkpe3ZhciBlPSJ3ZWJraXRBbmltYXRpb25FbmQgbW96QW5pbWF0aW9uRW5kIE1TQW5pbWF0aW9uRW5kIG9hbmltYXRpb25lbmQgYW5pbWF0aW9uZW5kIjt0aGlzLmFkZENsYXNzKCJhbmltYXRlZCAiK2kpLm9uZShlLGZ1bmN0aW9uKCl7JCh0aGlzKS5yZW1vdmVDbGFzcygiYW5pbWF0ZWQgIitpKX0pfX0pO3ZhciBQYWdlTm90Rm91bmQ9e3RlbXBsYXRlOiIgICAgPGRpdj4gICAgICA8ZGl2IGNsYXNzPSdtYWluJyBzdHlsZT0nYmFja2dyb3VuZC1pbWFnZTp1cmwoYXNzZXQvaW1nL3dlYnNpdGVfdXhfdWlfYmcuanBnKSc+ICAgICAgICA8aDE+e3tsYW5nbG9hZC5ub3RfZm91bmQudGl0bGV9fTwvaDE+ICAgICAgICA8ZGl2IGNsYXNzPSdkZXNjcmlwdGlvbic+ICAgICAgICAgIDxwPnt7bGFuZ2xvYWQubm90X2ZvdW5kLmRlc2NyaXB0fX08L3A+ICAgICAgICA8L2Rpdj4gICAgICAgIDxkaXYgY2xhc3M9J2N0YScgPiAgICAgICAgICAgIDxhIEBjbGljaz0naGVhZGVyLmNsb3NlVGhpcygpJz57e2xhbmdsb2FkLmxpbmtfdHh0fX0gPjwvYT4gICAgICAgIDwvZGl2PiAgICAgIDwvZGl2PiAgICAgIDxkaXYgY2xhc3M9J21haW5faW1nJz4gICAgICAgIDxpbWcgOnNyYz0nXCJhc3NldC9pbWcvNDA0LnBuZ1wiJyAvPiAgICAgIDwvZGl2PiAgICA8L2Rpdj4gICAgIn0scHJvZHVjdF9pbmZvPXt0ZW1wbGF0ZToiICAgIDxkaXYgdi1pZj0ncHJvZHVjdF9vYmpbdGhpcy4kcm91dGUucGFyYW1zLmlkXSE9dW5kZWZpbmVkJz4gICAgICA8ZGl2IGNsYXNzPSdtYWluJyA6c3R5bGU9J3tiYWNrZ3JvdW5kSW1hZ2UgOiBcInVybChhc3NldC9pbWcvcHJvZHVjdC9cIitwcm9kdWN0X29ialskcm91dGUucGFyYW1zLmlkXS5pbWdfZmlsK3Byb2R1Y3Rfb2JqWyRyb3V0ZS5wYXJhbXMuaWRdLmRldGFpbF9pbWdfYmcrXCIpXCJ9Jz4gICAgICAgIDxoMT57eyBwcm9kdWN0X29ialskcm91dGUucGFyYW1zLmlkXS50aXRsZSB9fTwvaDE+ICAgICAgICA8ZGl2IGNsYXNzPSdkZXNjcmlwdGlvbic+ICAgICAgICAgIDxwPnt7IHByb2R1Y3Rfb2JqWyRyb3V0ZS5wYXJhbXMuaWRdLmRldGFpbF9pbnRybyB9fTwvcD4gICAgICAgIDwvZGl2PiAgICAgICAgPGRpdiBjbGFzcz0nY3RhJyA+ICAgICAgICAgICAgPGEgdi1zaG93PSdwcm9kdWN0X29ialskcm91dGUucGFyYW1zLmlkXS53ZWJzaXRlJyA6aHJlZj0ncHJvZHVjdF9vYmpbJHJvdXRlLnBhcmFtcy5pZF0ud2Vic2l0ZScgdGFyZ2V0PSdfYmxhbmsnPnt7bGFuZ2xvYWQubGlua190eHR9fSA+PC9hPiAgICAgICAgPC9kaXY+ICAgICAgPC9kaXY+ICAgICAgPGRpdiBjbGFzcz0nbWFpbl9pbWcnPiAgICAgICAgPGltZyA6c3JjPSdcImFzc2V0L2ltZy9wcm9kdWN0L1wiK3Byb2R1Y3Rfb2JqWyRyb3V0ZS5wYXJhbXMuaWRdLmltZ19maWwrcHJvZHVjdF9vYmpbJHJvdXRlLnBhcmFtcy5pZF0uZGV0YWlsX2ltZ19jYXNlJyAvPiAgICAgIDwvZGl2PiAgICA8L2Rpdj4gICAgPGRpdiB2LWVsc2U+ICAgICAgPGRpdiBjbGFzcz0nbWFpbicgc3R5bGU9J2JhY2tncm91bmQtaW1hZ2U6dXJsKGFzc2V0L2ltZy93ZWJzaXRlX3V4X3VpX2JnLmpwZyknPiAgICAgICAgPGgxPnt7bGFuZ2xvYWQubm90X2ZvdW5kLnRpdGxlfX08L2gxPiAgICAgICAgPGRpdiBjbGFzcz0nZGVzY3JpcHRpb24nPiAgICAgICAgICA8cD57e2xhbmdsb2FkLm5vdF9mb3VuZC5kZXNjcmlwdH19PC9wPiAgICAgICAgPC9kaXY+ICAgICAgICA8ZGl2IGNsYXNzPSdjdGEnID4gICAgICAgICAgICA8YSAgQGNsaWNrPSdoZWFkZXIuY2xvc2VUaGlzKCknPnt7bGFuZ2xvYWQubGlua190eHR9fSA+PC9hPiAgICAgICAgPC9kaXY+ICAgICAgPC9kaXY+ICAgICAgPGRpdiBjbGFzcz0nbWFpbl9pbWcnPiAgICAgICAgPGltZyA6c3JjPSdcImFzc2V0L2ltZy80MDQucG5nXCInIC8+ICAgICAgPC9kaXY+ICAgIDwvZGl2PiAgICAiLHdhdGNoOnskcm91dGU6ZnVuY3Rpb24oaSxlKXthcHAuY3JlYXRlU2VydmljZUxpc3QoaS5wYXJhbXMuaWQpfX19LHBfaWQ9IiIsU2VydmljZV9jb250ZW50PW5ldyBWdWUoe2VsOiIuc2VydmljZV9jb250ZW50IixkYXRhOntzZXJ2aWNlX2xpc3RfaXRlbToiIixzZXJ2aWNlX29wdGlvbjpsYW5nbG9hZC5zZXJ2aWNlX29wdGlvbn0sbWV0aG9kczp7c2VydmljZV9saXN0OmZ1bmN0aW9uKGkpe3RoaXMuc2VydmljZV9saXN0X2l0ZW09cHJvZHVjdF9vYmpbaV0uc2VydmljZX19fSksU3RhcnRDb250YWN0PW5ldyBWdWUoe2VsOiIuY29udGFjdF9zZXJ2aWNlIixtZXRob2RzOntpc01vYmlsZURldmljZTpmdW5jdGlvbigpe3JldHVybiJ1bmRlZmluZWQiIT10eXBlb2Ygd2luZG93Lm9yaWVudGF0aW9ufHxuYXZpZ2F0b3IudXNlckFnZW50LmluZGV4T2YoIklFTW9iaWxlIikhPT0tMX0sY29udGFjdF91czpmdW5jdGlvbigpe3RoaXMuaXNNb2JpbGVEZXZpY2UoKT93aW5kb3cub3BlbigiY29udGFjdF91cy5odG1sP3JlZmVycmVyPWNvbnRhY3QiLCJfYmxhbmsiKTp3aW5kb3cub3BlbigiY29udGFjdF91cy5odG1sP3JlZmVycmVyPWNvbnRhY3QiLCJfc2VsZiIpfX19KSxyb3V0ZXI9bmV3IFZ1ZVJvdXRlcih7YmFzZToiLyIscm91dGVzOlt7cGF0aDoiLyIsY29tcG9uZW50OlBhZ2VOb3RGb3VuZH0se3BhdGg6Ii9pZC86aWQiLGNvbXBvbmVudDpwcm9kdWN0X2luZm99LHtwYXRoOiIqIixjb21wb25lbnQ6UGFnZU5vdEZvdW5kfV19KSxoZWFkZXI9bmV3IFZ1ZSh7ZWw6ImhlYWRlciIsbWV0aG9kczp7Y2xvc2VUaGlzOmZ1bmN0aW9uKCl7dmFyIGk9d2luZG93LmxvY2F0aW9uIT13aW5kb3cucGFyZW50LmxvY2F0aW9uO2k/JCh3aW5kb3cucGFyZW50LmRvY3VtZW50KS5maW5kKCIuZmVhdGhlcmxpZ2h0LWNsb3NlIikuY2xpY2soKTp3aW5kb3cub3BlbigiLi8iLCJfc2VsZiIpfX19KSxhcHA9bmV3IFZ1ZSh7ZWw6IiNhcHAiLHJvdXRlcjpyb3V0ZXIsY3JlYXRlZDpmdW5jdGlvbigpe3RoaXMuY3JlYXRlU2VydmljZUxpc3QodGhpcy4kcm91dGUucGFyYW1zLmlkKX0sbWV0aG9kczp7Y3JlYXRlU2VydmljZUxpc3Q6ZnVuY3Rpb24oaSl7dm9pZCAwIT09cHJvZHVjdF9vYmpbaV0mJigkKCJ0aXRsZSIpLnRleHQobGFuZ2xvYWQucHJvZHVjdF9pbnRyb2R1Y3Rpb24rcHJvZHVjdF9vYmpbaV0udGl0bGUrIiB8ICIrbGFuZ2xvYWQuZG9kZWNfZGVzaWduX3Nsb2dhbiksU2VydmljZV9jb250ZW50LnNlcnZpY2VfbGlzdChpKSl9fX0pOw=='));
+'use strict';
+
+
+//------------------------------------------
+
+//[Animate.css 擴充]
+$.fn.extend({
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('animated ' + animationName);
+        });
+    }
+});
+
+//---------------------------------------------------------------
+//[url request query string]
+// $.urlParam = function(name){
+//     var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+//     if (results==null){
+//        return null;
+//     }
+//     else{
+//        return decodeURI(results[1]) || 0;
+//     }
+// }
+// var urlp = $.urlParam('parent');
+
+
+
+//===============================================================================
+//VUE 區塊
+//===============================================================================
+
+
+var PageNotFound = {
+    template: "\
+    <div>\
+      <div class='main' style='background-image:url(asset/img/website_ux_ui_bg.jpg)'>\
+        <h1>{{langload.not_found.title}}</h1>\
+        <div class='description'>\
+          <p>{{langload.not_found.descript}}</p>\
+        </div>\
+        <div class='cta' >\
+            <a @click='header.closeThis()'>{{langload.link_txt}} ></a>\
+        </div>\
+      </div>\
+      <div class='main_img'>\
+        <img :src='\"asset/img/404.png\"' />\
+      </div>\
+    </div>\
+    "};
+
+//[product_info]
+var product_info = { template: "\
+    <div v-if='product_obj[this.$route.params.id]!=undefined'>\
+      <div class='main' :style='{backgroundImage : \"url(asset/img/product/\"+product_obj[$route.params.id].img_fil+product_obj[$route.params.id].detail_img_bg+\")\"}'>\
+        <h1>{{ product_obj[$route.params.id].title }}</h1>\
+        <div class='description'>\
+          <p>{{ product_obj[$route.params.id].detail_intro }}</p>\
+        </div>\
+        <div class='cta' >\
+            <a v-show='product_obj[$route.params.id].website' :href='product_obj[$route.params.id].website' target='_blank'>{{langload.link_txt}} ></a>\
+        </div>\
+      </div>\
+      <div class='main_img'>\
+        <img :src='\"asset/img/product/\"+product_obj[$route.params.id].img_fil+product_obj[$route.params.id].detail_img_case' />\
+      </div>\
+    </div>\
+    <div v-else>\
+      <div class='main' style='background-image:url(asset/img/website_ux_ui_bg.jpg)'>\
+        <h1>{{langload.not_found.title}}</h1>\
+        <div class='description'>\
+          <p>{{langload.not_found.descript}}</p>\
+        </div>\
+        <div class='cta' >\
+            <a  @click='header.closeThis()'>{{langload.link_txt}} ></a>\
+        </div>\
+      </div>\
+      <div class='main_img'>\
+        <img :src='\"asset/img/404.png\"' />\
+      </div>\
+    </div>\
+    ",
+    watch: {
+    //watch router change, will recreate service list and meta title
+    //這裡會監聽router param改變時的狀態，並且重新建立服務項目及meta title
+       $route: function(to, from){
+         app.createServiceList(to.params.id);
+      }
+    }
+  };
+var p_id = '';
+
+//[服務項目 service content]
+var Service_content = new Vue({
+  el: '.service_content',
+  data: {
+      service_list_item: '',
+      service_option: langload.service_option,
+  },
+  methods: {
+    service_list: function(id){
+      this.service_list_item = product_obj[id].service;
+    }
+  },
+});
+
+//[歡迎洽詢]
+var StartContact = new Vue({
+  el: '.contact_service',
+  methods: {
+    isMobileDevice : function(){
+      return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+    },
+    contact_us: function(){
+      if (this.isMobileDevice()) {
+        window.open('contact_us.html?referrer=contact','_blank');
+      }else{
+        window.open('contact_us.html?referrer=contact','_self');
+      }
+    }
+  }
+});
+
+
+//[set Rotuer]
+  var router = new VueRouter({
+    base: '/',
+    routes: [
+      { path: '/',
+        component: PageNotFound
+      },
+      { 
+        path: '/id/:id', 
+        component: product_info
+      },
+      { 
+        path: "*", 
+        component: PageNotFound
+      }
+
+    ] // 如果是 routes: routes，則可以縮寫成 routers
+  });
+
+  var header = new Vue({
+    el: 'header',
+    methods: {
+      closeThis: function(){
+        //檢查是否在iframe中
+        var isInIFrame = (window.location != window.parent.location);
+        if(isInIFrame){
+          $(window.parent.document).find('.featherlight-close').click();
+        }else{
+          window.open('./','_self');
+        }
+      }
+    }
+  });
+
+  var app = new Vue({
+    el: '#app',
+    router: router,
+    created: function () {
+      this.createServiceList(this.$route.params.id);
+    },
+    methods: {
+      createServiceList: function(i){
+        if(product_obj[i]!==undefined){
+          $("title").text(langload.product_introduction+product_obj[i].title+' | '+langload.dodec_design_slogan);
+          Service_content.service_list(i);
+        }
+      }
+    }
+  });

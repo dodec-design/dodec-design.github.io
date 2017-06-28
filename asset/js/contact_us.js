@@ -1,1 +1,89 @@
-eval(atob('InVzZSBzdHJpY3QiOyQuZm4uZXh0ZW5kKHthbmltYXRlQ3NzOmZ1bmN0aW9uKGUpe3ZhciBuPSJ3ZWJraXRBbmltYXRpb25FbmQgbW96QW5pbWF0aW9uRW5kIE1TQW5pbWF0aW9uRW5kIG9hbmltYXRpb25lbmQgYW5pbWF0aW9uZW5kIjt0aGlzLmFkZENsYXNzKCJhbmltYXRlZCAiK2UpLm9uZShuLGZ1bmN0aW9uKCl7JCh0aGlzKS5yZW1vdmVDbGFzcygiYW5pbWF0ZWQgIitlKX0pfX0pLCQudXJsUGFyYW09ZnVuY3Rpb24oZSl7dmFyIG49bmV3IFJlZ0V4cCgiWz8mXSIrZSsiPShbXiYjXSopIikuZXhlYyh3aW5kb3cubG9jYXRpb24uaHJlZik7cmV0dXJuIG51bGw9PW4/bnVsbDpkZWNvZGVVUkkoblsxXSl8fDB9O3ZhciB1cmxwPSQudXJsUGFyYW0oInJlZmVycmVyIiksTm90aGluZz17dGVtcGxhdGU6IjxkaXY+Tm90IEZvdW5kZWQ8L2Rpdj4ifSxyb3V0ZXI9bmV3IFZ1ZVJvdXRlcih7YmFzZToiLyIscm91dGVzOlt7cGF0aDoiLyJ9XX0pLGhlYWRlcj1uZXcgVnVlKHtlbDoiaGVhZGVyIixtZXRob2RzOntjbG9zZVRoaXM6ZnVuY3Rpb24oKXt2YXIgZT13aW5kb3cubG9jYXRpb24hPXdpbmRvdy5wYXJlbnQubG9jYXRpb247ZT8kKHdpbmRvdy5wYXJlbnQuZG9jdW1lbnQpLmZpbmQoIi5mZWF0aGVybGlnaHQtY2xvc2UiKS5jbGljaygpOnVybHA/d2luZG93Lm9wZW4oIi4vIyIrdXJscCwiX3NlbGYiKTp3aW5kb3cub3BlbigiLi8iLCJfc2VsZiIpfX19KSxhcHA9bmV3IFZ1ZSh7ZWw6IiNhcHAiLHJvdXRlcjpyb3V0ZXIsbWV0aG9kczp7c3VibWl0Rm9ybTpmdW5jdGlvbihlKXtpZigwIT10aGlzLmNoZWNrRm9ybSgpKXtlLnByZXZlbnREZWZhdWx0KCk7dmFyIG49JCgiI3NzLWZvcm0iKS5zZXJpYWxpemUoKSxvPSJodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9mb3Jtcy9kL2UvMUZBSXBRTFNkVXpINFV5b2hWcGdNOWlzbnNPVXgwbjJ2Q1ZsUlVQU2FDc18yLUJieUFrTDRBdEEvZm9ybVJlc3BvbnNlIjskLnBvc3QobyxuKSwkKCIjc3MtZm9ybSIpLnRleHQoIiIpLCQoIi5maW5pc2hlZCIpLmZhZGVJbigpfX0sY2hlY2tGb3JtOmZ1bmN0aW9uKCl7cmV0dXJuITB9fX0pOw=='));
+'use strict';
+
+
+//------------------------------------------
+
+//[Animate.css 擴充]
+$.fn.extend({
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('animated ' + animationName);
+        });
+    }
+});
+
+//---------------------------------------------------------------
+//[url request query string]
+$.urlParam = function(name){
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results==null){
+       return null;
+    }
+    else{
+       return decodeURI(results[1]) || 0;
+    }
+}
+var urlp = $.urlParam('referrer');
+
+
+
+//===============================================================================
+//VUE 區塊
+//===============================================================================
+//[contact_us_info]
+var Nothing = { template: '<div>Not Founded</div>' };
+
+//[set Rotuer]
+  var router = new VueRouter({
+    base: '/',
+    routes: [
+      { path: '/',
+      }
+
+    ] // 如果是 routes: routes，則可以縮寫成 routers
+  });
+
+  //[TEST]
+    // console.log(window.parent);
+    // alert(document.referrer);
+    // alert(window.location.origin);
+
+  var header = new Vue({
+    el: 'header',
+    methods: {
+      closeThis: function(){
+        //檢查是否在iframe中
+        var isInIFrame = (window.location != window.parent.location);
+        if(isInIFrame){
+          $(window.parent.document).find('.featherlight-close').click();
+        }else{
+          //檢查是否從首頁>聯絡我們連結過來(連結過來 urlp會帶 referrer 參數)
+          if(urlp){
+            window.open('./#'+urlp,'_self');
+          }else{
+            window.open('./','_self');
+          }
+        }
+      }
+    }
+  });
+
+  var app = new Vue({
+    el: '#app',
+    router: router,
+    methods: {
+      submitForm: function(event){
+        if(this.checkForm()==false){return;};
+        event.preventDefault();
+        var str = $("#ss-form").serialize();
+        var url = "https://docs.google.com/forms/d/e/1FAIpQLSdUzH4UyohVpgM9isnsOUx0n2vCVlRUPSaCs_2-BbyAkL4AtA/formResponse";
+        $.post( url, str);
+        $("#ss-form").text('');
+        $(".finished").fadeIn();
+      },
+      checkForm: function(){
+        return true;
+      }
+    }
+  });
