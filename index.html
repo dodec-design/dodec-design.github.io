@@ -19,13 +19,13 @@
       ga('create', 'UA-57474998-4', 'auto');
       ga('send', 'pageview');</script><script type="text/javascript">var close_preload = function(){
       setTimeout(function(){
+          console.log(2);
           $("body.waitMe_container .waitMe").fadeOut();
-          $("body").waitMe("hide");
       },400);
     };
     var close_preload_default = function(){
       setTimeout(function(){
-          $("body.waitMe_container .waitMe").fadeOut();
+          console.log(1);
           $("body").waitMe("hide");
       },2600);
     };
