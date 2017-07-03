@@ -1,6 +1,7 @@
 importScripts('serviceworker-cache-polyfill.js');
 var cacheName = 'dodec-design';
 var dataCacheName = 'dodec-design-data';
+
 var filesToCache = [
   '/',    
     './index.html',
